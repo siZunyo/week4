@@ -211,8 +211,14 @@ img{
 .pt80{
     padding-top: 80px;
 }
+.pt96{
+  padding-top: 96px;
+}
 .pb80{
     padding-bottom: 80px;
+}
+.pl16{
+   padding-left: 16px;
 }
 
 
@@ -317,6 +323,9 @@ img{
 .b{
     border-bottom: 1px solid #FFFFFF;
 }
+.qutions h1{
+  border-left: 8px solid #9F1213;
+}
 
 @media(max-width: 768px){
     .warp{
@@ -331,6 +340,7 @@ img{
     }
     .menu li{
         width: 48%;
+        border: 1px solid white;
     }
     .contact{
         max-width: 80%;
