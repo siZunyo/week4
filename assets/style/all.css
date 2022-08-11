@@ -89,6 +89,9 @@ img {
   background-size: cover;
   max-width: 100%; }
 
+.qutions h1, .qutions h2, .qutions ul {
+  width: 60%; }
+
 /* flex相關 */
 .flex {
   display: -webkit-box;
@@ -377,6 +380,12 @@ img {
     background: url(../images/home-header-sm.png) no-repeat;
     background-size: cover;
     height: 787px;
-    max-width: 100%; } }
+    max-width: 100%; }
+  .qutions h1 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 24px; }
+  .qutions h1, .qutions h2, .qutions ul {
+    width: 100%; } }
 
 /*# sourceMappingURL=all.css.map */
