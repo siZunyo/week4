@@ -90,6 +90,9 @@ img{
     background-size: cover;
     max-width: 100%;
 }
+.qutions h1, .qutions h2, .qutions ul{
+    width: 60%;
+}
 
 /* flex相關 */
 .flex{
@@ -247,11 +250,17 @@ img{
 .mb24{
     margin-bottom: 24px;
 }
+.mb32{
+  margin-bottom: 32px;
+}
 .mb2433{
     margin-bottom: 24.33px;
 }
 .mb48{
     margin-bottom: 48px;
+}
+.mb80{
+  margin-bottom: 80px;
 }
 
 
@@ -383,5 +392,13 @@ img{
         background-size: cover;
         height: 787px;
         max-width: 100%;
+    }
+    .qutions h1{
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 24px;
+    }
+    .qutions h1, .qutions h2, .qutions ul{
+        width: 100%;
     }
 }
